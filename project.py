@@ -123,7 +123,7 @@ df = pd.DataFrame({"Name": NAME,
                    "Total_Stats": TOTAL_STATS})
 
 
-df.to_excel('players.xlsx') # Export the data (Path To Excel File)
+df.to_excel('sofifa.xlsx') # Export the data (Path To Excel File)
 
 sys.stdout.write('\033[1;31m')
 print("Data Exported To Excel File") # project success confirmation
